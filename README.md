@@ -29,3 +29,7 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 ## Run the app with
 
 ng serve --open --host $IP --port $PORT --disable-host-check
+
+## Run app on PRD with
+
+ng serve --target=production --open --host $IP --port $PORT --disable-host-check
